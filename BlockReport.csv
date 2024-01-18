@@ -1,0 +1,6 @@
+111.202.101.147 www.tomflanders.com - [31/Dec/2023:05:33:21 +0000] "GET / HTTP/1.1" 403 16369 "-" "Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)" | - | 0.657 0.658 0.658 MISS 0 NC:000000 UP:SKIP_CACHE_EXPIRED
+49.7.20.28 www.tomflanders.com - [31/Dec/2023:05:33:22 +0000] "GET / HTTP/1.1" 403 16369 "-" "Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)" | - | 0.003 0.004 0.003 MISS 0 NC:000000 UP:SKIP_CACHE_EXPIRED
+149.202.162.138 www.tomflanders.com - [31/Dec/2023:22:00:38 +0000] "HEAD /feed/ HTTP/1.1" 403 0 "-" "Apache-HttpClient/4.5.5 (Java/1.8.0_181)" | - | 0.005 0.005 0.004 - 0 NC:000000 UP:-DT
+149.202.162.138 www.tomflanders.com - [31/Dec/2023:22:00:39 +0000] "GET /feed/ HTTP/1.1" 403 16369 "-" "Apache-HttpClient/4.5.5 (Java/1.8.0_181)" | - | 0.003 0.003 0.003 MISS 0 NC:000000 UP:SKIP_CACHE_EXPIRED
+80.85.142.44 tomflanders.com - [31/Dec/2023:22:47:13 +0000] "HEAD / HTTP/1.1" 403 0 "https://autolider42.ru/smazki/" "Mozilla/6.0 (compatible; MSIE2.00; Windows 2004)" | - | 0.394 0.394 0.394 - 0 NC:000000 UP:-DT
+80.85.139.166 tomflanders.com - [31/Dec/2023:22:47:53 +0000] "HEAD / HTTP/1.1" 403 0 "https://dmt-avto.ru" "Mozilla/5.0 (compatible; MSIE2.00; Windows 2007)" | - | 0.243 0.243 0.243 - 0 NC:000000 UP:-DT

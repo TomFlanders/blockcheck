@@ -1,25 +1,28 @@
+use strict;
+
 #Load blocks file
 open(BFILE, "blocks.txt");
+my @blocks;
 
 #assign blocks to array
-while ($line = <BFILE>){
+while (my $line = <BFILE>){
     chomp($line);
     push(@blocks,$line);
 }
 close(BFILE);
 
 #Join array as regex
-$theBlocks = join("|",@blocks);
+my $theBlocks = join("|",@blocks);
 
 #Open output file
 open(OFILE, ">BlockReport.csv");
 
 #Open log file
-$filename = $ARGV[0];
+my $filename = $ARGV[0];
 open(INFILE, "$filename");
 
 #Check each line for blocks regex
-while($line = <INFILE>) {
+while(my $line = <INFILE>) {
     if($line =~ /$theBlocks/i) {
         print OFILE $line;
     }

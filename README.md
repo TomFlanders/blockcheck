@@ -6,7 +6,7 @@ PERL script to check log files to see if .htaccess and robots.txt are working
 Tom Flanders
 
 ## version
-0.5.0
+0.6.0
 
 ## requirements
 PERL
